@@ -1,0 +1,37 @@
+.subHeader {
+    background-color: #232f3e;
+    padding: 0 0 0 10px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    color: white;
+}
+.subHeaderOption {
+    display: flex;
+}
+
+.optionHeader {
+    display: flex;
+    padding: 8px 9px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    gap: 2px;
+    &:hover {
+        border: 1px solid;
+        border-radius: 3px;
+    }
+}
+
+.optionHeader {
+    font-size: 20px;
+}
+
+.allOptionBanner {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 400;
+    font-family: sans-serif;
+}

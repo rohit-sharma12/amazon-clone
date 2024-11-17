@@ -1,0 +1,68 @@
+.homeBanner {
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.homeBanner>img {
+    height: 80vh;
+    width: 100% !important;
+}
+
+.grayBackground {
+    background-color: rgba(238, 235, 235);
+    height: 80vh;
+}
+
+.homeBannerItemDiv {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    top: 25%;
+    padding: 0 40px;
+    position: absolute;
+}
+
+.homeBannerItemDivCard {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 343px;
+    padding: 20px 0 15px;
+    box-sizing: border-box;
+}
+
+.homeBannerItemDivCardTitle {
+    margin: 0 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.imgHomeBannerItemDivCard {
+    margin: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imgBannerItemDiv {
+    height: 145px;
+    width: 145px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBannerItemDivImg {
+    width: 95%;
+}
+
+.imgBannerImgName {
+    font-size: 12px;
+    font-weight: 500;
+}
+.seeMore {
+    margin: 0 20px;
+    font-size: 13px;
+    color: #007185;
+    font-weight: 600;
+}

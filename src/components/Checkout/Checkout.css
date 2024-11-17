@@ -1,0 +1,126 @@
+.checkout {
+    background-color: whitesmoke;
+    padding: 20px 18px 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.left {
+    padding: 20px 15px 15px;
+    box-sizing: border-box;
+    width: 77%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.deselectItem {
+color: #007185;
+}
+
+.leftTitle {
+    font-size: 20px;
+}
+
+.cartPrice {
+    text-align: end;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cartItemBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.cartItemLeftBlock {
+    display: flex;
+    width: 80%;
+}
+
+.cartItemLeftBlockImage {
+    width: 20%;
+    flex-shrink: 0;
+}
+
+.cartItemLeftBlockImg {
+    width: 100%;
+}
+
+.cartItemLeftBlockDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    gap: 10px;
+}
+
+.cartItemProductName {
+    font-size: 15px;
+}
+
+.instockCart {
+    color: #016001;
+    font-size: 12px;
+}
+
+.elgFreeShp {
+    color: #565959;
+    font-size: 12px;
+}
+
+.removeFromCart {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #febd69;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cartItemRightBlock {
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.right {
+    padding: 20px 15px 15px;
+    box-sizing: border-box;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.subTotalTitleSpan {
+    font-weight: 700;
+}
+
+.gift {
+    display: flex;
+    align-items: center;
+}
+
+.gift > input {
+    margin-right: 5px;
+}
+
+.right > button {
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: black;
+}

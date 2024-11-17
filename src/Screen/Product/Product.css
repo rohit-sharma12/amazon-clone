@@ -1,0 +1,141 @@
+.productPage {
+    width: 100%;
+}
+
+.productTopBanner {
+    display: flex;
+    box-shadow: 0 0 1px #747474;
+    height: 50px;
+    padding: 0 9px 0 15px;
+    gap: 25px;
+}
+
+.productTopBannerItems {
+    padding: 0 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.productTopBannerItemsSubMenu {
+    padding: 0 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: #febd69;
+        text-decoration-thickness: 2px;
+    }
+}
+
+/* .productPageMain {
+    width: 100%;
+    padding: 16px 8px;
+} */
+
+.productPageMainTopBanner {
+    width: 99%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 11px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.productPageMainTopBannerSpan {
+    color: rgb(209, 58, 4);
+    font-weight: 700;
+}
+
+.itemImageProductPage {
+    /* width: 100%; */
+    display: grid;
+    gap: 90px;
+    margin-left: 10px;
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+.itemImageProductPageOne {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 480px;
+}
+
+.imgBlockItemsImageProductPageOne {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    padding: 15px 25px;
+}
+
+.productImageProduct {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 230px;
+}
+
+.productName {
+    padding: 10px;
+    border: 1px solid #e0dbdb;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.productNameRating {
+    display: flex;
+    margin: 8px 0;
+}
+
+.priceProductDetailPage {
+    display: flex;
+}
+
+.priceText {
+    font: 13px;
+}
+
+.rateHomeDetail {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addCart {
+    background-color: #febd69;
+    width: fit-content;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offProduct {
+    color: #727171;
+    font-weight: 400;
+}
+
+.freeDelivery {
+    font-weight: 400;
+    margin-top: 10px;
+}

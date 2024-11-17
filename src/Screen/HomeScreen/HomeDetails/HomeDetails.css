@@ -1,0 +1,81 @@
+.homeDetails {
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    margin-bottom: 210px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(238, 235, 235);
+}
+
+.homeDetailLongCard {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.homeDetailLongCardTitle {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.homeDetailLongCardItems {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.scrollDiv {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.homeDetailLongCardItem {
+    display: flex;
+    cursor: pointer;
+    flex-shrink: 0;
+    flex-direction: column;
+    width: 14%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.homeDetailLongCardItemImg {
+    width: 70%;
+}
+
+.homeDetailLongCardItemImgDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.homeDetailLongCardItemImgTopDetail {
+    display: flex;
+    gap: 5px
+}
+
+.homeDetailPercentageOff {
+    background-color: #CC0C39;
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    color: white;
+}
