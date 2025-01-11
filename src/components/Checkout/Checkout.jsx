@@ -1,10 +1,13 @@
+/* eslint-disable react/jsx-key */
 import './Checkout.css';
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from '../../redux/action/action';
 import { toast, ToastContainer } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 function Checkout() {
+  const navigate = useNavigate();
   const [cartItem, setCartItem] = useState([]);
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
@@ -15,6 +18,7 @@ function Checkout() {
   useEffect(() => {
     setCartItem(cartItems)
   }, [cartItems])
+  console.log(cartItem);
 
   const handleRemoveFromCart = (id) => {
     toast.error("Item Removed From Cart", {
@@ -22,6 +26,7 @@ function Checkout() {
     })
     dispatch(removeFromCart(id))
   }
+
   return (
     <div className='checkout'>
 
@@ -32,7 +37,7 @@ function Checkout() {
 
         <div className="cartItem">
           {
-            cartItems.map((item, index) => {
+            cartItems.map((item) => {
               return (
                 <div className="cartItemBlock">
                   <div className="cartItemLeftBlock">

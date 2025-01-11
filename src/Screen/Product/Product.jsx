@@ -1,13 +1,13 @@
 import './Product.css';
 import productDetail from './product.json';
-import { useSelector, useDispatch } from 'react-redux';
+import {  useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/action/action';
 import {toast, ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function Product() {
 
   const dispatch = useDispatch();
-  const cartItems= useSelector((state) => state.cart.items);
+  //const cartItems= useSelector((state) => state.cart.items);
   const handleAddToCart = (item) => {
     toast.success("Successfully added in cart", {
       position: "bottom-right"

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import './HomeBanner.css';
 import HomeBannerItemProduct from '../../../HomeProduct.json';
 
@@ -9,7 +10,7 @@ const HomeBanner = () => {
             <div className="homeBannerItemDiv">
 
                 {
-                    HomeBannerItemProduct.product.map((item, index) => {
+                    HomeBannerItemProduct.product.map((item) => {
                         return (
                             <div className="homeBannerItemDivCard">
                                 <div className="homeBannerItemDivCardTitle">{item.itemTitle}</div>
